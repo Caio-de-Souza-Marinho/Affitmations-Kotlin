@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Afirmations</string>
+
+    <string name="affirmation1">"Seja miserável ou se motive. O que quer que tenha que ser feito, é sempre sua escolha."- Wayne Dyer</string>
+    <string name="affirmation2">"Qual é o ponto de estar vivo se você não tentar fazer algo notável?." - Anonymous</string>
+    <string name="affirmation3">"Quando você pára de perseguir as coisas erradas, você dá as coisas certas a chance de pegar você." - Lolly Daskal</string>
+    <string name="affirmation4">"A um homem bom não é possível que ocorra nenhum mal, nem em vida nem em morte." - Sócrates</string>
+    <string name="affirmation5">"Deus, ao criar o homem, superestimou a Sua capacidade." - Oscar Wilde</string>
+    <string name="affirmation6">"Se você não pode explicar isso simplesmente, você não entende bem o suficiente." - Albert Einstein</string>
+    <string name="affirmation7">”Creia em si, mas não duvide sempre dos outros." - Machado de Assis</string>
+    <string name="affirmation8">"Por sabedoria entendo a arte de tornar a vida mais agradável e feliz possível." - Arthur Schopenhauer</string>
+    <string name="affirmation9">"Só é possível ensinar uma criança a amar, amando-a." - Johann Goethe</string>
+    <string name="affirmation10">"A persistência é o caminho do êxito." Charles Chaplin</string>
+
+
+
+</resources>
