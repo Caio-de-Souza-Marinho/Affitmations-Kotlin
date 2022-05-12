@@ -2,7 +2,10 @@ package com.ds.afirmations
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.service.autofill.Dataset
 import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import com.ds.afirmations.adapter.ItemAdapter
 import com.ds.afirmations.data.Datasource
 
 class MainActivity : AppCompatActivity() {
@@ -10,7 +13,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val textView: TextView = findViewById(R.id.textView1)
-        textView.text = Datasource().loadAffirmations().size.toString()
+        val myDataset = Datasource().loadAffirmations() //Inicializa os dados
+        val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
+        recyclerView.adapter = ItemAdapter(this, myDataset)
+        recyclerView.setHasFixedSize(true)
     }
 }
