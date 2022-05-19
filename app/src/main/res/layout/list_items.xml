@@ -7,10 +7,10 @@
     <ImageView
         android:id="@+id/item_image"
         android:layout_width="match_parent"
-        android:layout_height="194dp"
-        android:scaleType="centerCrop"
-        android:importantForAccessibility="no" />
 
+        android:scaleType="centerCrop"
+        android:layout_height="194dp"
+        android:importantForAccessibility="no" />
     <TextView
         android:id="@+id/item_title"
         android:layout_width="wrap_content"
